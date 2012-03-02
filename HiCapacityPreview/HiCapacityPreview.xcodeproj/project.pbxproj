@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFA927F715009C2D00638EC0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA927F615009C2D00638EC0 /* Cocoa.framework */; };
+		CFA9280115009C2D00638EC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFA927FF15009C2D00638EC0 /* InfoPlist.strings */; };
+		CFA9280315009C2D00638EC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA9280215009C2D00638EC0 /* main.m */; };
+		CFA9280715009C2D00638EC0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CFA9280515009C2D00638EC0 /* Credits.rtf */; };
+		CFA9280A15009C2D00638EC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA9280915009C2D00638EC0 /* AppDelegate.m */; };
+		CFA9280D15009C2D00638EC0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFA9280B15009C2D00638EC0 /* MainMenu.xib */; };
+		CFA9281515009C2D00638EC0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA9281415009C2D00638EC0 /* SenTestingKit.framework */; };
+		CFA9281615009C2D00638EC0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA927F615009C2D00638EC0 /* Cocoa.framework */; };
+		CFA9281E15009C2D00638EC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFA9281C15009C2D00638EC0 /* InfoPlist.strings */; };
+		CFA9282115009C2D00638EC0 /* HiCapacityPreviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA9282015009C2D00638EC0 /* HiCapacityPreviewTests.m */; };
+		CFA9282E15009E0F00638EC0 /* HiCapWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA9282D15009E0F00638EC0 /* HiCapWebView.m */; };
+		CFA9283015009E3E00638EC0 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFA9282F15009E3E00638EC0 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFA9281715009C2D00638EC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA927E915009C2D00638EC0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA927F115009C2D00638EC0;
+			remoteInfo = HiCapacityPreview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFA927F215009C2D00638EC0 /* HiCapacityPreview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiCapacityPreview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA927F615009C2D00638EC0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CFA927F915009C2D00638EC0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CFA927FA15009C2D00638EC0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CFA927FB15009C2D00638EC0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFA927FE15009C2D00638EC0 /* HiCapacityPreview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiCapacityPreview-Info.plist"; sourceTree = "<group>"; };
+		CFA9280015009C2D00638EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFA9280215009C2D00638EC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFA9280415009C2D00638EC0 /* HiCapacityPreview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HiCapacityPreview-Prefix.pch"; sourceTree = "<group>"; };
+		CFA9280615009C2D00638EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CFA9280815009C2D00638EC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFA9280915009C2D00638EC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFA9280C15009C2D00638EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CFA9281315009C2D00638EC0 /* HiCapacityPreviewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiCapacityPreviewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA9281415009C2D00638EC0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CFA9281B15009C2D00638EC0 /* HiCapacityPreviewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HiCapacityPreviewTests-Info.plist"; sourceTree = "<group>"; };
+		CFA9281D15009C2D00638EC0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFA9281F15009C2D00638EC0 /* HiCapacityPreviewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HiCapacityPreviewTests.h; sourceTree = "<group>"; };
+		CFA9282015009C2D00638EC0 /* HiCapacityPreviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HiCapacityPreviewTests.m; sourceTree = "<group>"; };
+		CFA9282C15009E0F00638EC0 /* HiCapWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HiCapWebView.h; sourceTree = "<group>"; };
+		CFA9282D15009E0F00638EC0 /* HiCapWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HiCapWebView.m; sourceTree = "<group>"; };
+		CFA9282F15009E3E00638EC0 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFA927EF15009C2D00638EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA9283015009E3E00638EC0 /* WebKit.framework in Frameworks */,
+				CFA927F715009C2D00638EC0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA9280F15009C2D00638EC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA9281515009C2D00638EC0 /* SenTestingKit.framework in Frameworks */,
+				CFA9281615009C2D00638EC0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFA927E715009C2D00638EC0 = {
+			isa = PBXGroup;
+			children = (
+				CFA9282F15009E3E00638EC0 /* WebKit.framework */,
+				CFA927FC15009C2D00638EC0 /* HiCapacityPreview */,
+				CFA9281915009C2D00638EC0 /* HiCapacityPreviewTests */,
+				CFA927F515009C2D00638EC0 /* Frameworks */,
+				CFA927F315009C2D00638EC0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFA927F315009C2D00638EC0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFA927F215009C2D00638EC0 /* HiCapacityPreview.app */,
+				CFA9281315009C2D00638EC0 /* HiCapacityPreviewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFA927F515009C2D00638EC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFA927F615009C2D00638EC0 /* Cocoa.framework */,
+				CFA9281415009C2D00638EC0 /* SenTestingKit.framework */,
+				CFA927F815009C2D00638EC0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFA927F815009C2D00638EC0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFA927F915009C2D00638EC0 /* AppKit.framework */,
+				CFA927FA15009C2D00638EC0 /* CoreData.framework */,
+				CFA927FB15009C2D00638EC0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CFA927FC15009C2D00638EC0 /* HiCapacityPreview */ = {
+			isa = PBXGroup;
+			children = (
+				CFA9280815009C2D00638EC0 /* AppDelegate.h */,
+				CFA9280915009C2D00638EC0 /* AppDelegate.m */,
+				CFA9280B15009C2D00638EC0 /* MainMenu.xib */,
+				CFA927FD15009C2D00638EC0 /* Supporting Files */,
+				CFA9282C15009E0F00638EC0 /* HiCapWebView.h */,
+				CFA9282D15009E0F00638EC0 /* HiCapWebView.m */,
+			);
+			path = HiCapacityPreview;
+			sourceTree = "<group>";
+		};
+		CFA927FD15009C2D00638EC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFA927FE15009C2D00638EC0 /* HiCapacityPreview-Info.plist */,
+				CFA927FF15009C2D00638EC0 /* InfoPlist.strings */,
+				CFA9280215009C2D00638EC0 /* main.m */,
+				CFA9280415009C2D00638EC0 /* HiCapacityPreview-Prefix.pch */,
+				CFA9280515009C2D00638EC0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFA9281915009C2D00638EC0 /* HiCapacityPreviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA9281F15009C2D00638EC0 /* HiCapacityPreviewTests.h */,
+				CFA9282015009C2D00638EC0 /* HiCapacityPreviewTests.m */,
+				CFA9281A15009C2D00638EC0 /* Supporting Files */,
+			);
+			path = HiCapacityPreviewTests;
+			sourceTree = "<group>";
+		};
+		CFA9281A15009C2D00638EC0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFA9281B15009C2D00638EC0 /* HiCapacityPreviewTests-Info.plist */,
+				CFA9281C15009C2D00638EC0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFA927F115009C2D00638EC0 /* HiCapacityPreview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA9282415009C2D00638EC0 /* Build configuration list for PBXNativeTarget "HiCapacityPreview" */;
+			buildPhases = (
+				CFA927EE15009C2D00638EC0 /* Sources */,
+				CFA927EF15009C2D00638EC0 /* Frameworks */,
+				CFA927F015009C2D00638EC0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiCapacityPreview;
+			productName = HiCapacityPreview;
+			productReference = CFA927F215009C2D00638EC0 /* HiCapacityPreview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFA9281215009C2D00638EC0 /* HiCapacityPreviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA9282715009C2D00638EC0 /* Build configuration list for PBXNativeTarget "HiCapacityPreviewTests" */;
+			buildPhases = (
+				CFA9280E15009C2D00638EC0 /* Sources */,
+				CFA9280F15009C2D00638EC0 /* Frameworks */,
+				CFA9281015009C2D00638EC0 /* Resources */,
+				CFA9281115009C2D00638EC0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA9281815009C2D00638EC0 /* PBXTargetDependency */,
+			);
+			name = HiCapacityPreviewTests;
+			productName = HiCapacityPreviewTests;
+			productReference = CFA9281315009C2D00638EC0 /* HiCapacityPreviewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFA927E915009C2D00638EC0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Michael T Chinen";
+			};
+			buildConfigurationList = CFA927EC15009C2D00638EC0 /* Build configuration list for PBXProject "HiCapacityPreview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CFA927E715009C2D00638EC0;
+			productRefGroup = CFA927F315009C2D00638EC0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFA927F115009C2D00638EC0 /* HiCapacityPreview */,
+				CFA9281215009C2D00638EC0 /* HiCapacityPreviewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFA927F015009C2D00638EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA9280115009C2D00638EC0 /* InfoPlist.strings in Resources */,
+				CFA9280715009C2D00638EC0 /* Credits.rtf in Resources */,
+				CFA9280D15009C2D00638EC0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA9281015009C2D00638EC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA9281E15009C2D00638EC0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CFA9281115009C2D00638EC0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFA927EE15009C2D00638EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA9280315009C2D00638EC0 /* main.m in Sources */,
+				CFA9280A15009C2D00638EC0 /* AppDelegate.m in Sources */,
+				CFA9282E15009E0F00638EC0 /* HiCapWebView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA9280E15009C2D00638EC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA9282115009C2D00638EC0 /* HiCapacityPreviewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFA9281815009C2D00638EC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA927F115009C2D00638EC0 /* HiCapacityPreview */;
+			targetProxy = CFA9281715009C2D00638EC0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFA927FF15009C2D00638EC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA9280015009C2D00638EC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CFA9280515009C2D00638EC0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA9280615009C2D00638EC0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CFA9280B15009C2D00638EC0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA9280C15009C2D00638EC0 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CFA9281C15009C2D00638EC0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFA9281D15009C2D00638EC0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFA9282215009C2D00638EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CFA9282315009C2D00638EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CFA9282515009C2D00638EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiCapacityPreview/HiCapacityPreview-Prefix.pch";
+				INFOPLIST_FILE = "HiCapacityPreview/HiCapacityPreview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CFA9282615009C2D00638EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiCapacityPreview/HiCapacityPreview-Prefix.pch";
+				INFOPLIST_FILE = "HiCapacityPreview/HiCapacityPreview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CFA9282815009C2D00638EC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HiCapacityPreview.app/Contents/MacOS/HiCapacityPreview";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiCapacityPreview/HiCapacityPreview-Prefix.pch";
+				INFOPLIST_FILE = "HiCapacityPreviewTests/HiCapacityPreviewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CFA9282915009C2D00638EC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HiCapacityPreview.app/Contents/MacOS/HiCapacityPreview";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HiCapacityPreview/HiCapacityPreview-Prefix.pch";
+				INFOPLIST_FILE = "HiCapacityPreviewTests/HiCapacityPreviewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFA927EC15009C2D00638EC0 /* Build configuration list for PBXProject "HiCapacityPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA9282215009C2D00638EC0 /* Debug */,
+				CFA9282315009C2D00638EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA9282415009C2D00638EC0 /* Build configuration list for PBXNativeTarget "HiCapacityPreview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA9282515009C2D00638EC0 /* Debug */,
+				CFA9282615009C2D00638EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFA9282715009C2D00638EC0 /* Build configuration list for PBXNativeTarget "HiCapacityPreviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA9282815009C2D00638EC0 /* Debug */,
+				CFA9282915009C2D00638EC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFA927E915009C2D00638EC0 /* Project object */;
+}
